@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face { /* Adicionamento de fontes importadas, Não esquecer de usa @fonte-face */
+    font-family: minha fonte;
+    src: url(idroid.otf);
+
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(143, 255, 162, 0.753);
+    font-family: minha fonte;
+    font-size: 10px;
+
+}
+h1{ 
+    text-align: center;
+  
+    
+}
+p{
+    margin: -5px 0px;
+    text-align: justify;
+    font-style:normal
+}
+strong{
+    color: green;
+ text-decoration: none;
+}
+main a{
+    text-decoration: none;
+}
+main a:hover{
+    background-color: rgb(9, 255, 0);
+    text-decoration: none;
+}
+main p{
+    text-indent: 30px;
+    line-height: 30px;
+}
+header{
+    background-color: rgb(0, 255, 0);
+background-image: linear-gradient(to bottom) ;
+}
+header > h1 {
+    text-align: center;
+    padding: 5px;
+    font-size:25px;
+    text-shadow: 2px 1px 7px #000000a8;
+    font-weight: bolder;
+}
+header > p{
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 1px 7px #000000a8;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+main {
+background-color: white;
+border-radius: 2px;
+margin: auto;
+padding: 20px;
+min-width: 600px;
+max-width:900px;
+margin-bottom: 10px;
+box-shadow:-1px 1px 2px #000000a8;
+}
+.video{
+    background-color: green;
+    margin: -1px -20px 0px -20px;
+    padding: 20px 0px 20px 108px;
+    padding-bottom: 40%;
+    position: relative;
+    box-shadow:-1px 1px 2px #000000a8; ;
+}
+.video iframe{
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    width: 69%;
+    height: 96%;
+}
+.externo::after{
+    content: '🔗';
+
+}
+main img.pequeno{
+    width: 50%;
+    margin: auto;
+    display: block;
+
+}
+aside{
+    background-color: green;
+    box-shadow: -1px 1px 6px black;
+    border-radius:18px 18px ;
+}
+aside > ul {
+    padding: 20px;
+    list-style-position: inside;
+    columns: 2;
+}
+aside h2{
+    background-color: #87f80598;
+    border-radius: 17px 20px;
+    padding: 7px;
+    text-align: center;
+
+
+}
+footer{
+background-color: wheat;
+text-align: center;
+padding: 16px;
+text-shadow: 2px 1px 12px #0f0f0f;
+}
+a {
+color: rgb(11, 68, 0);
+}
+nav{
+background-color:wheat; 
+padding:12px ;
+border-radius:0px ;
+box-shadow:-1px 1px 6px #000000a8;
+}
+nav > a{
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition-duration: 13;
+    font-size: 14px;
+}
+nav > a:hover{
+    background-color: green;
+}
+main img{
+    width: 100%;
+}

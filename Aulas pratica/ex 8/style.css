@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* em html ID    = em css # (Apenas só unico elemento)
+   em html CLASS = em css . (pode Varios elementos
+*/
+
+body { 
+    background-color: rgb(61, 61, 61);
+}
+h1{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 72, 0, 0.623);
+}
+h2 { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 72, 0, 0.623);
+}
+p{ 
+    font: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#um { text-align: center;
+    color: rgb(255, 0, 0);
+    text-decoration:underline ;
+
+}
+.basico{
+    color: rgb(220, 245, 0);
+    font-weight: bolder;
+    
+}
